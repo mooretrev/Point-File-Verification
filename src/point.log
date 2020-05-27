@@ -1,0 +1,4078 @@
+2020-04-13 08:24:14,763 Running script text: WinActivate, Document Information Preview
+2020-04-13 08:24:15,248 Stdout: b''
+2020-04-13 08:24:15,248 Stderr: b''
+2020-04-13 08:24:15,248 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-04-13 08:24:15,419 Stdout: b''
+2020-04-13 08:24:15,419 Stderr: b''
+2020-04-13 08:24:57,061 Running script text: WinActivate, Document Information Preview
+2020-04-13 08:24:57,280 Stdout: b''
+2020-04-13 08:24:57,280 Stderr: b''
+2020-04-13 08:24:57,280 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-04-13 08:24:57,515 Stdout: b''
+2020-04-13 08:24:57,515 Stderr: b''
+2020-04-13 08:24:57,515 Move to \Acosta, Abraham (6.2.19)~1519048206
+2020-04-13 08:24:57,515 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 1519048206
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-13 08:25:27,745 Stdout: b''
+2020-04-13 08:25:27,745 Stderr: b''
+2020-04-13 08:25:27,745 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-13 08:25:39,483 Stdout: b''
+2020-04-13 08:25:39,483 Stderr: b''
+2020-04-13 08:25:43,500 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-13 08:27:13,390 Stdout: b''
+2020-04-13 08:27:13,390 Stderr: b''
+2020-04-13 08:27:13,406 Move to \Ahmed, Nahid~2102422856
+2020-04-13 08:27:13,406 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-04-13 08:27:17,048 Stdout: b''
+2020-04-13 08:27:17,048 Stderr: b''
+2020-04-13 08:27:17,048 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-04-13 08:27:24,798 Stdout: b''
+2020-04-13 08:27:24,798 Stderr: b''
+2020-04-13 08:27:24,798 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-04-13 08:27:28,082 Stdout: b''
+2020-04-13 08:27:28,082 Stderr: b''
+2020-04-13 08:27:28,082 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-04-13 08:27:28,269 Stdout: b''
+2020-04-13 08:27:28,269 Stderr: b''
+2020-04-13 08:27:28,269 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-04-13 08:27:33,723 Stdout: b''
+2020-04-13 08:27:33,723 Stderr: b''
+2020-04-13 08:27:35,726 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102422856
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-13 08:28:05,993 Stdout: b''
+2020-04-13 08:28:05,993 Stderr: b''
+2020-04-13 08:28:05,993 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-13 08:28:17,715 Stdout: b''
+2020-04-13 08:28:17,715 Stderr: b''
+2020-04-13 08:28:21,760 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-13 08:29:27,563 Stdout: b''
+2020-04-13 08:29:27,563 Stderr: b''
+2020-04-24 12:32:07,887 Running script text: WinActivate, Document Information Preview
+2020-04-24 12:32:08,293 Stdout: b''
+2020-04-24 12:32:08,293 Stderr: b''
+2020-04-24 12:32:08,293 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-04-24 12:32:08,481 Stdout: b''
+2020-04-24 12:32:08,481 Stderr: b''
+2020-04-24 12:32:08,496 Move to \Al Hita, Khalid~0109116244
+2020-04-24 12:32:08,496 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0109116244
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:32:38,647 Stdout: b''
+2020-04-24 12:32:38,647 Stderr: b''
+2020-04-24 12:32:38,647 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-24 12:32:50,221 Stdout: b''
+2020-04-24 12:32:50,221 Stderr: b''
+2020-04-24 12:32:54,259 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-24 12:33:29,422 Stdout: b''
+2020-04-24 12:33:29,422 Stderr: b''
+2020-04-24 12:34:14,708 Running script text: WinActivate, Document Information Preview
+2020-04-24 12:34:14,896 Stdout: b''
+2020-04-24 12:34:14,896 Stderr: b''
+2020-04-24 12:34:14,896 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-04-24 12:34:15,054 Stdout: b''
+2020-04-24 12:34:15,054 Stderr: b''
+2020-04-24 12:34:15,054 Move to \Alanis, Jaime-closed~2018032200
+2020-04-24 12:34:15,054 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2018032200
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:51:24,289 Running script text: WinActivate, Document Information Preview
+2020-04-24 12:51:25,148 Stdout: b''
+2020-04-24 12:51:25,148 Stderr: b''
+2020-04-24 12:51:25,148 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-04-24 12:51:25,351 Stdout: b''
+2020-04-24 12:51:25,351 Stderr: b''
+2020-04-24 12:51:25,351 Move to \Alanis, Jaime-closed~2018032200
+2020-04-24 12:51:25,351 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2018032200
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:51:55,251 Stdout: b''
+2020-04-24 12:51:55,251 Stderr: b''
+2020-04-24 12:51:55,251 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-24 12:52:06,986 Stdout: b''
+2020-04-24 12:52:06,986 Stderr: b''
+2020-04-24 12:52:11,017 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-24 12:53:13,928 Stdout: b''
+2020-04-24 12:53:13,928 Stderr: b''
+2020-04-24 12:53:13,928 Move to \Alanis, Jared~2102388015
+2020-04-24 12:53:13,928 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-04-24 12:53:17,522 Stdout: b''
+2020-04-24 12:53:17,522 Stderr: b''
+2020-04-24 12:53:17,522 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-04-24 12:53:25,211 Stdout: b''
+2020-04-24 12:53:25,211 Stderr: b''
+2020-04-24 12:53:25,211 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-04-24 12:53:28,493 Stdout: b''
+2020-04-24 12:53:28,493 Stderr: b''
+2020-04-24 12:53:28,493 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-04-24 12:53:28,695 Stdout: b''
+2020-04-24 12:53:28,695 Stderr: b''
+2020-04-24 12:53:28,695 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-04-24 12:53:34,166 Stdout: b''
+2020-04-24 12:53:34,166 Stderr: b''
+2020-04-24 12:53:36,181 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102388015
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:54:06,200 Stdout: b''
+2020-04-24 12:54:06,200 Stderr: b''
+2020-04-24 12:54:06,200 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-24 12:54:17,797 Stdout: b''
+2020-04-24 12:54:17,797 Stderr: b''
+2020-04-24 12:54:21,828 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-24 12:54:41,401 Stdout: b''
+2020-04-24 12:54:41,401 Stderr: b''
+2020-04-24 12:54:41,417 Move to \Ansari, Usman~01025504172
+2020-04-24 12:54:41,417 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-04-24 12:54:45,159 Stdout: b''
+2020-04-24 12:54:45,159 Stderr: b''
+2020-04-24 12:54:45,159 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-04-24 12:54:52,788 Stdout: b''
+2020-04-24 12:54:52,788 Stderr: b''
+2020-04-24 12:54:52,788 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-04-24 12:54:56,093 Stdout: b''
+2020-04-24 12:54:56,093 Stderr: b''
+2020-04-24 12:54:56,093 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-04-24 12:54:56,281 Stdout: b''
+2020-04-24 12:54:56,281 Stderr: b''
+2020-04-24 12:54:56,281 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-04-24 12:55:01,703 Stdout: b''
+2020-04-24 12:55:01,703 Stderr: b''
+2020-04-24 12:55:03,703 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 01025504172
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:55:34,112 Stdout: b''
+2020-04-24 12:55:34,112 Stderr: b''
+2020-04-24 12:55:34,112 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-24 12:55:46,662 Stdout: b''
+2020-04-24 12:55:46,662 Stderr: b''
+2020-04-24 12:55:50,679 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-24 12:56:11,309 Stdout: b''
+2020-04-24 12:56:11,309 Stderr: b''
+2020-04-24 12:56:11,309 Move to \Arismendez, Joshua~504774910
+2020-04-24 12:56:11,309 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-04-24 12:56:14,948 Stdout: b''
+2020-04-24 12:56:14,948 Stderr: b''
+2020-04-24 12:56:14,948 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-04-24 12:56:22,593 Stdout: b''
+2020-04-24 12:56:22,593 Stderr: b''
+2020-04-24 12:56:22,593 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-04-24 12:56:26,234 Stdout: b''
+2020-04-24 12:56:26,234 Stderr: b''
+2020-04-24 12:56:26,234 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-04-24 12:56:26,421 Stdout: b''
+2020-04-24 12:56:26,421 Stderr: b''
+2020-04-24 12:56:26,421 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-04-24 12:56:31,921 Stdout: b''
+2020-04-24 12:56:31,921 Stderr: b''
+2020-04-24 12:56:33,937 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 504774910
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-04-24 12:57:04,209 Stdout: b''
+2020-04-24 12:57:04,209 Stderr: b''
+2020-04-24 12:57:04,209 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-04-24 12:57:15,899 Stdout: b''
+2020-04-24 12:57:15,899 Stderr: b''
+2020-04-24 12:57:19,917 Running script text: 
+        MsgBox, Verify File
+        
+2020-04-24 12:57:45,965 Stdout: b''
+2020-04-24 12:57:45,965 Stderr: b''
+2020-04-24 12:57:45,965 Move to \Arzate, Victor~1519021978
+2020-04-24 12:57:45,965 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-04-24 12:57:49,597 Stdout: b''
+2020-04-24 12:57:49,597 Stderr: b''
+2020-04-24 12:57:49,597 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-04-24 12:57:57,549 Stdout: b''
+2020-04-24 12:57:57,549 Stderr: b''
+2020-04-24 12:57:57,549 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-05-09 11:54:28,972 Running script text: WinActivate, Document Information Preview
+2020-05-09 11:54:29,347 Stdout: b''
+2020-05-09 11:54:29,347 Stderr: b''
+2020-05-09 11:54:29,347 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 11:54:29,535 Stdout: b''
+2020-05-09 11:54:29,535 Stderr: b''
+2020-05-09 11:54:29,535 Move to \Ayers, David~1519027167
+2020-05-09 11:54:29,535 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 1519027167
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-05-09 11:54:59,431 Stdout: b''
+2020-05-09 11:54:59,431 Stderr: b''
+2020-05-09 11:54:59,431 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 11:55:11,089 Stdout: b''
+2020-05-09 11:55:11,089 Stderr: b''
+2020-05-09 11:55:15,120 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 11:55:37,984 Stdout: b''
+2020-05-09 11:55:37,984 Stderr: b''
+2020-05-09 11:55:38,015 Move to \BROWN PURCHASE~2102437942
+2020-05-09 11:55:38,015 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 11:55:41,609 Stdout: b''
+2020-05-09 11:55:41,609 Stderr: b''
+2020-05-09 11:55:41,609 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-05-09 11:55:49,345 Stdout: b''
+2020-05-09 11:55:49,345 Stderr: b''
+2020-05-09 11:55:49,345 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-05-09 11:55:52,628 Stdout: b''
+2020-05-09 11:55:52,628 Stderr: b''
+2020-05-09 11:55:52,628 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 11:55:52,801 Stdout: b''
+2020-05-09 11:55:52,801 Stderr: b''
+2020-05-09 11:55:52,801 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 11:55:58,238 Stdout: b''
+2020-05-09 11:55:58,238 Stderr: b''
+2020-05-09 11:56:00,239 Running script text: 
+        Sleep, 2000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102437942
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 10000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 10000
+        
+2020-05-09 11:56:30,493 Stdout: b''
+2020-05-09 11:56:30,493 Stderr: b''
+2020-05-09 11:56:30,493 Running script text: 
+        Sleep, 5000
+        MouseClick, left, 420, 70
+        Sleep, 5000
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 11:56:42,215 Stdout: b''
+2020-05-09 11:56:42,215 Stderr: b''
+2020-05-09 11:56:46,247 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 11:59:16,305 Stdout: b''
+2020-05-09 11:59:16,305 Stderr: b''
+2020-05-09 11:59:16,305 Move to \BURKE~2102398765
+2020-05-09 11:59:16,305 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 2000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 11:59:19,910 Stdout: b''
+2020-05-09 11:59:19,910 Stderr: b''
+2020-05-09 11:59:19,910 Running script text: 
+            Sleep, 2000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 4000
+        
+2020-05-09 11:59:27,683 Stdout: b''
+2020-05-09 11:59:27,683 Stderr: b''
+2020-05-09 11:59:27,683 Running script text: 
+            Sleep, 3000
+            WinActivate, Point
+            
+2020-05-09 11:59:30,961 Stdout: b''
+2020-05-09 11:59:30,961 Stderr: b''
+2020-05-09 11:59:30,961 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 11:59:31,149 Stdout: b''
+2020-05-09 11:59:31,149 Stderr: b''
+2020-05-09 11:59:31,149 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:01:27,753 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:01:27,988 Stdout: b''
+2020-05-09 12:01:27,988 Stderr: b''
+2020-05-09 12:01:27,988 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:01:28,176 Stdout: b''
+2020-05-09 12:01:28,176 Stderr: b''
+2020-05-09 12:01:28,190 Move to \Babey, Lacy~2102402527
+2020-05-09 12:01:28,190 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102402527
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:01:45,207 Stdout: b''
+2020-05-09 12:01:45,207 Stderr: b''
+2020-05-09 12:01:45,207 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:01:51,848 Stdout: b''
+2020-05-09 12:01:51,848 Stderr: b''
+2020-05-09 12:01:55,850 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:02:17,525 Stdout: b''
+2020-05-09 12:02:17,525 Stderr: b''
+2020-05-09 12:02:17,525 Move to \Bajaj, Sonali~010170806
+2020-05-09 12:02:17,525 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:02:20,104 Stdout: b''
+2020-05-09 12:02:20,104 Stderr: b''
+2020-05-09 12:02:20,104 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:02:24,807 Stdout: b''
+2020-05-09 12:02:24,807 Stderr: b''
+2020-05-09 12:02:24,807 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:02:26,183 Stdout: b''
+2020-05-09 12:02:26,183 Stderr: b''
+2020-05-09 12:02:26,183 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:02:26,387 Stdout: b''
+2020-05-09 12:02:26,387 Stderr: b''
+2020-05-09 12:02:26,387 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:02:31,810 Stdout: b''
+2020-05-09 12:02:31,810 Stderr: b''
+2020-05-09 12:02:33,810 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 010170806
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:02:51,077 Stdout: b''
+2020-05-09 12:02:51,077 Stderr: b''
+2020-05-09 12:02:51,077 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:02:57,750 Stdout: b''
+2020-05-09 12:02:57,750 Stderr: b''
+2020-05-09 12:03:01,812 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:03:17,378 Stdout: b''
+2020-05-09 12:03:17,378 Stderr: b''
+2020-05-09 12:03:17,393 Move to \Baker, Mary~0106646920
+2020-05-09 12:03:17,393 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:03:19,958 Stdout: b''
+2020-05-09 12:03:19,958 Stderr: b''
+2020-05-09 12:03:19,958 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:03:24,566 Stdout: b''
+2020-05-09 12:03:24,566 Stderr: b''
+2020-05-09 12:03:24,566 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:03:25,849 Stdout: b''
+2020-05-09 12:03:25,849 Stderr: b''
+2020-05-09 12:03:25,849 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:03:26,037 Stdout: b''
+2020-05-09 12:03:26,037 Stderr: b''
+2020-05-09 12:03:26,037 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:03:31,474 Stdout: b''
+2020-05-09 12:03:31,474 Stderr: b''
+2020-05-09 12:03:33,477 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0106646920
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:03:50,661 Stdout: b''
+2020-05-09 12:03:50,661 Stderr: b''
+2020-05-09 12:03:50,661 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:03:57,380 Stdout: b''
+2020-05-09 12:03:57,380 Stderr: b''
+2020-05-09 12:04:01,412 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:04:30,230 Stdout: b''
+2020-05-09 12:04:30,230 Stderr: b''
+2020-05-09 12:04:30,246 Move to \Barbour, Patrick~0105866461
+2020-05-09 12:04:30,246 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:04:32,877 Stdout: b''
+2020-05-09 12:04:32,877 Stderr: b''
+2020-05-09 12:04:32,877 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:04:37,546 Stdout: b''
+2020-05-09 12:04:37,547 Stderr: b''
+2020-05-09 12:04:37,547 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:04:38,832 Stdout: b''
+2020-05-09 12:04:38,832 Stderr: b''
+2020-05-09 12:04:38,832 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:04:39,003 Stdout: b''
+2020-05-09 12:04:39,003 Stderr: b''
+2020-05-09 12:04:39,003 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:04:44,395 Stdout: b''
+2020-05-09 12:04:44,395 Stderr: b''
+2020-05-09 12:04:46,396 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0105866461
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:05:03,726 Stdout: b''
+2020-05-09 12:05:03,726 Stderr: b''
+2020-05-09 12:05:03,726 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:05:10,369 Stdout: b''
+2020-05-09 12:05:10,369 Stderr: b''
+2020-05-09 12:05:14,400 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:05:31,324 Stdout: b''
+2020-05-09 12:05:31,324 Stderr: b''
+2020-05-09 12:05:31,371 Move to \Bianchi, Vivian July 8~2102391038
+2020-05-09 12:05:31,371 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:05:34,042 Stdout: b''
+2020-05-09 12:05:34,042 Stderr: b''
+2020-05-09 12:05:34,042 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:05:38,685 Stdout: b''
+2020-05-09 12:05:38,685 Stderr: b''
+2020-05-09 12:05:38,685 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:05:39,936 Stdout: b''
+2020-05-09 12:05:39,936 Stderr: b''
+2020-05-09 12:05:39,936 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:05:40,092 Stdout: b''
+2020-05-09 12:05:40,092 Stderr: b''
+2020-05-09 12:05:40,092 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:05:45,498 Stdout: b''
+2020-05-09 12:05:45,498 Stderr: b''
+2020-05-09 12:05:47,498 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102391038
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:06:04,816 Stdout: b''
+2020-05-09 12:06:04,816 Stderr: b''
+2020-05-09 12:06:04,816 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:06:11,489 Stdout: b''
+2020-05-09 12:06:11,489 Stderr: b''
+2020-05-09 12:06:15,490 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:06:36,241 Stdout: b''
+2020-05-09 12:06:36,241 Stderr: b''
+2020-05-09 12:06:36,256 Move to \Biolo, John~0105407985
+2020-05-09 12:06:36,256 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:06:38,912 Stdout: b''
+2020-05-09 12:06:38,912 Stderr: b''
+2020-05-09 12:06:38,912 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:06:43,709 Stdout: b''
+2020-05-09 12:06:43,709 Stderr: b''
+2020-05-09 12:06:43,709 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:06:45,054 Stdout: b''
+2020-05-09 12:06:45,054 Stderr: b''
+2020-05-09 12:06:45,054 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:06:45,272 Stdout: b''
+2020-05-09 12:06:45,272 Stderr: b''
+2020-05-09 12:06:45,272 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:06:50,648 Stdout: b''
+2020-05-09 12:06:50,648 Stderr: b''
+2020-05-09 12:06:52,663 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0105407985
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:07:09,839 Stdout: b''
+2020-05-09 12:07:09,839 Stderr: b''
+2020-05-09 12:07:09,839 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:07:16,496 Stdout: b''
+2020-05-09 12:07:16,496 Stderr: b''
+2020-05-09 12:07:20,511 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:07:40,655 Stdout: b''
+2020-05-09 12:07:40,655 Stderr: b''
+2020-05-09 12:07:40,655 Move to \Black, Tom~ 0106710841
+2020-05-09 12:07:40,655 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:07:43,210 Stdout: b''
+2020-05-09 12:07:43,210 Stderr: b''
+2020-05-09 12:07:43,210 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:07:47,722 Stdout: b''
+2020-05-09 12:07:47,722 Stderr: b''
+2020-05-09 12:07:47,722 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:07:49,050 Stdout: b''
+2020-05-09 12:07:49,050 Stderr: b''
+2020-05-09 12:07:49,050 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:07:49,238 Stdout: b''
+2020-05-09 12:07:49,238 Stderr: b''
+2020-05-09 12:07:49,238 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:07:54,739 Stdout: b''
+2020-05-09 12:07:54,739 Stderr: b''
+2020-05-09 12:07:56,740 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0106710841
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:08:13,930 Stdout: b''
+2020-05-09 12:08:13,930 Stderr: b''
+2020-05-09 12:08:13,930 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:08:20,682 Stdout: b''
+2020-05-09 12:08:20,682 Stderr: b''
+2020-05-09 12:08:24,729 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:08:45,416 Stdout: b''
+2020-05-09 12:08:45,416 Stderr: b''
+2020-05-09 12:08:45,416 Move to \Blanco Vasquez, Victor~2102422026
+2020-05-09 12:08:45,416 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:08:47,981 Stdout: b''
+2020-05-09 12:08:47,981 Stderr: b''
+2020-05-09 12:08:47,981 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:08:52,529 Stdout: b''
+2020-05-09 12:08:52,529 Stderr: b''
+2020-05-09 12:08:52,529 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:08:53,904 Stdout: b''
+2020-05-09 12:08:53,904 Stderr: b''
+2020-05-09 12:08:53,904 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:08:54,061 Stdout: b''
+2020-05-09 12:08:54,061 Stderr: b''
+2020-05-09 12:08:54,061 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:08:59,454 Stdout: b''
+2020-05-09 12:08:59,454 Stderr: b''
+2020-05-09 12:09:01,470 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102422026
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:09:18,753 Stdout: b''
+2020-05-09 12:09:18,753 Stderr: b''
+2020-05-09 12:09:18,753 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:09:25,505 Stdout: b''
+2020-05-09 12:09:25,505 Stderr: b''
+2020-05-09 12:09:29,537 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:09:55,541 Stdout: b''
+2020-05-09 12:09:55,541 Stderr: b''
+2020-05-09 12:09:55,556 Move to \Borba, Nicolai~1519062637
+2020-05-09 12:09:55,556 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:09:58,199 Stdout: b''
+2020-05-09 12:09:58,199 Stderr: b''
+2020-05-09 12:09:58,199 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:10:02,795 Stdout: b''
+2020-05-09 12:10:02,795 Stderr: b''
+2020-05-09 12:10:02,795 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:10:04,076 Stdout: b''
+2020-05-09 12:10:04,076 Stderr: b''
+2020-05-09 12:10:04,076 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:10:04,232 Stdout: b''
+2020-05-09 12:10:04,232 Stderr: b''
+2020-05-09 12:10:04,232 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:10:09,653 Stdout: b''
+2020-05-09 12:10:09,653 Stderr: b''
+2020-05-09 12:10:11,655 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 1519062637
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:10:28,817 Stdout: b''
+2020-05-09 12:10:28,817 Stderr: b''
+2020-05-09 12:10:28,817 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:10:35,522 Stdout: b''
+2020-05-09 12:10:35,522 Stderr: b''
+2020-05-09 12:10:39,537 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:10:50,669 Stdout: b''
+2020-05-09 12:10:50,678 Stderr: b''
+2020-05-09 12:10:50,687 Move to \Boudoin, Christopher~t712475
+2020-05-09 12:10:50,687 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:10:53,484 Stdout: b''
+2020-05-09 12:10:53,484 Stderr: b''
+2020-05-09 12:10:53,484 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:10:58,031 Stdout: b''
+2020-05-09 12:10:58,031 Stderr: b''
+2020-05-09 12:10:58,031 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:10:59,376 Stdout: b''
+2020-05-09 12:10:59,376 Stderr: b''
+2020-05-09 12:10:59,376 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:10:59,533 Stdout: b''
+2020-05-09 12:10:59,533 Stderr: b''
+2020-05-09 12:10:59,533 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:11:04,940 Stdout: b''
+2020-05-09 12:11:04,940 Stderr: b''
+2020-05-09 12:11:06,940 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, t712475
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:11:24,161 Stdout: b''
+2020-05-09 12:11:24,161 Stderr: b''
+2020-05-09 12:11:24,161 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:11:30,882 Stdout: b''
+2020-05-09 12:11:30,882 Stderr: b''
+2020-05-09 12:11:34,898 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:11:46,169 Stdout: b''
+2020-05-09 12:11:46,169 Stderr: b''
+2020-05-09 12:11:46,186 Move to \Brian Singh~3192572
+2020-05-09 12:11:46,186 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:11:48,917 Stdout: b''
+2020-05-09 12:11:48,917 Stderr: b''
+2020-05-09 12:11:48,917 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:11:53,589 Stdout: b''
+2020-05-09 12:11:53,589 Stderr: b''
+2020-05-09 12:11:53,589 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:11:54,870 Stdout: b''
+2020-05-09 12:11:54,870 Stderr: b''
+2020-05-09 12:11:54,870 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:11:55,089 Stdout: b''
+2020-05-09 12:11:55,089 Stderr: b''
+2020-05-09 12:11:55,089 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:12:00,528 Stdout: b''
+2020-05-09 12:12:00,528 Stderr: b''
+2020-05-09 12:12:02,529 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 3192572
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:12:19,703 Stdout: b''
+2020-05-09 12:12:19,703 Stderr: b''
+2020-05-09 12:12:19,703 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:12:26,397 Stdout: b''
+2020-05-09 12:12:26,397 Stderr: b''
+2020-05-09 12:12:30,428 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:15:43,965 Stdout: b''
+2020-05-09 12:15:43,965 Stderr: b''
+2020-05-09 12:15:43,965 Move to \Bridges, Eimear~0105574321
+2020-05-09 12:15:43,965 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:15:46,608 Stdout: b''
+2020-05-09 12:15:46,608 Stderr: b''
+2020-05-09 12:15:46,608 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:15:51,313 Stdout: b''
+2020-05-09 12:15:51,313 Stderr: b''
+2020-05-09 12:15:51,313 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:15:52,579 Stdout: b''
+2020-05-09 12:15:52,579 Stderr: b''
+2020-05-09 12:15:52,579 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:15:52,734 Stdout: b''
+2020-05-09 12:15:52,734 Stderr: b''
+2020-05-09 12:15:52,734 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:15:58,251 Stdout: b''
+2020-05-09 12:15:58,251 Stderr: b''
+2020-05-09 12:16:00,251 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0105574321
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:16:17,664 Stdout: b''
+2020-05-09 12:16:17,664 Stderr: b''
+2020-05-09 12:16:17,664 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:16:24,384 Stdout: b''
+2020-05-09 12:16:24,384 Stderr: b''
+2020-05-09 12:16:28,398 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:19:37,662 Stdout: b''
+2020-05-09 12:19:37,662 Stderr: b''
+2020-05-09 12:19:37,662 Move to \Britton, GAry~2102376518
+2020-05-09 12:19:37,662 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:19:40,178 Stdout: b''
+2020-05-09 12:19:40,178 Stderr: b''
+2020-05-09 12:19:40,178 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 2000
+        
+2020-05-09 12:30:24,656 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:30:24,969 Stdout: b''
+2020-05-09 12:30:24,969 Stderr: b''
+2020-05-09 12:30:24,969 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:30:25,156 Stdout: b''
+2020-05-09 12:30:25,156 Stderr: b''
+2020-05-09 12:30:25,156 Move to \Brown, Karen~0108854613
+2020-05-09 12:30:25,156 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108854613
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:30:42,189 Stdout: b''
+2020-05-09 12:30:42,189 Stderr: b''
+2020-05-09 12:30:42,189 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:30:48,926 Stdout: b''
+2020-05-09 12:30:48,926 Stderr: b''
+2020-05-09 12:30:52,941 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:40:33,036 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:40:33,693 Stdout: b''
+2020-05-09 12:40:33,693 Stderr: b''
+2020-05-09 12:40:33,693 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:40:33,864 Stdout: b''
+2020-05-09 12:40:33,864 Stderr: b''
+2020-05-09 12:40:33,864 Running script text: Run, explore C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Brown, Karen~0108854613
+2020-05-09 12:45:54,647 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:45:54,865 Stdout: b''
+2020-05-09 12:45:54,865 Stderr: b''
+2020-05-09 12:45:54,865 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:45:55,069 Stdout: b''
+2020-05-09 12:45:55,069 Stderr: b''
+2020-05-09 12:45:55,069 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Brown, Karen~0108854613"
+            Run, explore %MyVar%
+            
+2020-05-09 12:45:55,349 Stdout: b''
+2020-05-09 12:45:55,349 Stderr: b''
+2020-05-09 12:45:55,349 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108854613
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:46:21,430 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:46:21,634 Stdout: b''
+2020-05-09 12:46:21,634 Stderr: b''
+2020-05-09 12:46:21,634 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:46:21,806 Stdout: b''
+2020-05-09 12:46:21,806 Stderr: b''
+2020-05-09 12:46:21,806 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Brown, Karen~0108854613"
+            Run, explore %MyVar%
+            WinActivate, Point
+            
+2020-05-09 12:46:22,477 Stdout: b''
+2020-05-09 12:46:22,477 Stderr: b''
+2020-05-09 12:46:22,477 Running script text: 
+        WinActivate, Point
+        Sleep, 1000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108854613
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:47:42,533 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:47:42,736 Stdout: b''
+2020-05-09 12:47:42,736 Stderr: b''
+2020-05-09 12:47:42,736 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:47:42,923 Stdout: b''
+2020-05-09 12:47:42,923 Stderr: b''
+2020-05-09 12:47:42,923 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Brown, Karen~0108854613"
+            Run, explore %MyVar%
+            WinActivate, Point
+            
+2020-05-09 12:47:43,428 Stdout: b''
+2020-05-09 12:47:43,441 Stderr: b''
+2020-05-09 12:47:43,441 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108854613
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:48:02,850 Stdout: b''
+2020-05-09 12:48:02,850 Stderr: b''
+2020-05-09 12:48:02,850 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:48:09,613 Stdout: b''
+2020-05-09 12:48:09,613 Stderr: b''
+2020-05-09 12:48:13,632 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:48:33,180 Stdout: b''
+2020-05-09 12:48:33,180 Stderr: b''
+2020-05-09 12:48:33,196 Move to \Bryah Denhart~3035714
+2020-05-09 12:48:33,196 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Bryah Denhart~3035714"
+            Run, explore %MyVar%
+            WinActivate, Point
+            
+2020-05-09 12:48:33,805 Stdout: b''
+2020-05-09 12:48:33,805 Stderr: b''
+2020-05-09 12:48:33,805 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:48:37,260 Stdout: b''
+2020-05-09 12:48:37,260 Stderr: b''
+2020-05-09 12:48:37,260 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 12:48:41,318 Stdout: b''
+2020-05-09 12:48:41,339 Stderr: b''
+2020-05-09 12:48:41,339 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:48:44,943 Stdout: b''
+2020-05-09 12:48:44,943 Stderr: b''
+2020-05-09 12:48:44,943 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:48:49,583 Stdout: b''
+2020-05-09 12:48:49,583 Stderr: b''
+2020-05-09 12:48:51,693 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Bryah Denhart~3035714"
+            Run, explore %MyVar%
+            WinActivate, Point
+            
+2020-05-09 12:49:36,312 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:49:36,468 Stdout: b''
+2020-05-09 12:49:36,468 Stderr: b''
+2020-05-09 12:49:36,468 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:49:36,625 Stdout: b''
+2020-05-09 12:49:36,625 Stderr: b''
+2020-05-09 12:49:36,625 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Bryah Denhart~3035714"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:49:38,301 Stdout: b''
+2020-05-09 12:49:38,312 Stderr: b''
+2020-05-09 12:49:38,312 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 3035714
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:49:57,644 Stdout: b''
+2020-05-09 12:49:57,644 Stderr: b''
+2020-05-09 12:49:57,644 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:50:04,363 Stdout: b''
+2020-05-09 12:50:04,363 Stderr: b''
+2020-05-09 12:50:08,380 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:51:11,122 Stdout: b''
+2020-05-09 12:51:11,122 Stderr: b''
+2020-05-09 12:51:11,122 Move to \Burgos, Leonardo~0108527664
+2020-05-09 12:51:11,122 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Burgos, Leonardo~0108527664"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:51:13,044 Stdout: b''
+2020-05-09 12:51:13,044 Stderr: b''
+2020-05-09 12:51:13,044 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:51:16,461 Stdout: b''
+2020-05-09 12:51:16,461 Stderr: b''
+2020-05-09 12:51:16,461 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 12:51:20,674 Stdout: b''
+2020-05-09 12:51:20,674 Stderr: b''
+2020-05-09 12:51:20,674 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:51:22,205 Stdout: b''
+2020-05-09 12:51:22,205 Stderr: b''
+2020-05-09 12:51:22,205 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:51:22,518 Stdout: b''
+2020-05-09 12:51:22,518 Stderr: b''
+2020-05-09 12:51:24,518 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Burgos, Leonardo~0108527664"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:51:26,643 Stdout: b''
+2020-05-09 12:51:26,643 Stderr: b''
+2020-05-09 12:51:26,643 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108527664
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:52:48,670 Running script text: WinActivate, Document Information Preview
+2020-05-09 12:52:48,874 Stdout: b''
+2020-05-09 12:52:48,874 Stderr: b''
+2020-05-09 12:52:48,874 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 12:52:49,061 Stdout: b''
+2020-05-09 12:52:49,061 Stderr: b''
+2020-05-09 12:52:49,061 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Burgos, Leonardo~0108527664"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:52:50,562 Stdout: b''
+2020-05-09 12:52:50,562 Stderr: b''
+2020-05-09 12:52:50,562 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108527664
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:53:09,938 Stdout: b''
+2020-05-09 12:53:09,938 Stderr: b''
+2020-05-09 12:53:09,938 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:53:16,862 Stdout: b''
+2020-05-09 12:53:16,862 Stderr: b''
+2020-05-09 12:53:20,878 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:54:38,152 Stdout: b''
+2020-05-09 12:54:38,152 Stderr: b''
+2020-05-09 12:54:38,152 Move to \Burns, Jennifer~0106792013
+2020-05-09 12:54:38,152 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:54:40,980 Stdout: b''
+2020-05-09 12:54:40,980 Stderr: b''
+2020-05-09 12:54:40,980 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 12:54:44,686 Stdout: b''
+2020-05-09 12:54:44,686 Stderr: b''
+2020-05-09 12:54:44,686 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:54:46,254 Stdout: b''
+2020-05-09 12:54:46,255 Stderr: b''
+2020-05-09 12:54:46,255 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:54:47,508 Stdout: b''
+2020-05-09 12:54:47,508 Stderr: b''
+2020-05-09 12:54:49,523 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Burns, Jennifer~0106792013"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:54:51,056 Stdout: b''
+2020-05-09 12:54:51,056 Stderr: b''
+2020-05-09 12:54:51,072 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0106792013
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:55:10,402 Stdout: b''
+2020-05-09 12:55:10,402 Stderr: b''
+2020-05-09 12:55:10,402 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:55:17,202 Stdout: b''
+2020-05-09 12:55:17,202 Stderr: b''
+2020-05-09 12:55:21,218 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 12:55:45,991 Stdout: b''
+2020-05-09 12:55:45,991 Stderr: b''
+2020-05-09 12:55:45,991 Move to \Byun, Hye~2102376410
+2020-05-09 12:55:45,991 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 12:55:48,556 Stdout: b''
+2020-05-09 12:55:48,556 Stderr: b''
+2020-05-09 12:55:48,556 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 12:55:52,200 Stdout: b''
+2020-05-09 12:55:52,200 Stderr: b''
+2020-05-09 12:55:52,200 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 12:55:53,481 Stdout: b''
+2020-05-09 12:55:53,481 Stderr: b''
+2020-05-09 12:55:53,481 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 12:55:53,731 Stdout: b''
+2020-05-09 12:55:53,731 Stderr: b''
+2020-05-09 12:55:53,731 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 12:55:59,216 Stdout: b''
+2020-05-09 12:55:59,216 Stderr: b''
+2020-05-09 12:56:01,232 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Byun, Hye~2102376410"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 12:56:02,871 Stdout: b''
+2020-05-09 12:56:02,871 Stderr: b''
+2020-05-09 12:56:02,887 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102376410
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 12:56:22,646 Stdout: b''
+2020-05-09 12:56:22,646 Stderr: b''
+2020-05-09 12:56:22,646 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 12:56:29,291 Stdout: b''
+2020-05-09 12:56:29,291 Stderr: b''
+2020-05-09 12:56:33,292 Running script text: 
+        MsgBox, Verify File
+        
+2020-05-09 13:00:13,687 Running script text: WinActivate, Document Information Preview
+2020-05-09 13:00:13,892 Stdout: b''
+2020-05-09 13:00:13,892 Stderr: b''
+2020-05-09 13:00:13,892 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 13:00:14,080 Stdout: b''
+2020-05-09 13:00:14,080 Stderr: b''
+2020-05-09 13:01:10,964 Running script text: WinActivate, Document Information Preview
+2020-05-09 13:01:11,246 Stdout: b''
+2020-05-09 13:01:11,246 Stderr: b''
+2020-05-09 13:01:11,246 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 13:01:11,464 Stdout: b''
+2020-05-09 13:01:11,464 Stderr: b''
+2020-05-09 13:01:43,912 Running script text: WinActivate, Document Information Preview
+2020-05-09 13:01:44,099 Stdout: b''
+2020-05-09 13:01:44,099 Stderr: b''
+2020-05-09 13:01:44,099 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 13:01:44,288 Stdout: b''
+2020-05-09 13:01:44,288 Stderr: b''
+2020-05-09 13:01:46,303 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Byun, Hye~2102376410
+        
+2020-05-09 13:01:52,269 Stdout: b''
+2020-05-09 13:01:52,269 Stderr: b''
+2020-05-09 13:01:52,269 Move to \Canales, Eduardo~0104927231
+2020-05-09 13:02:45,632 Running script text: WinActivate, Document Information Preview
+2020-05-09 13:02:45,882 Stdout: b''
+2020-05-09 13:02:45,882 Stderr: b''
+2020-05-09 13:02:45,882 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 13:02:46,085 Stdout: b''
+2020-05-09 13:02:46,085 Stderr: b''
+2020-05-09 13:02:46,085 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Canales, Eduardo~0104927231"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 13:02:47,725 Stdout: b''
+2020-05-09 13:02:47,725 Stderr: b''
+2020-05-09 13:02:47,725 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0104927231
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 13:03:07,335 Stdout: b''
+2020-05-09 13:03:07,335 Stderr: b''
+2020-05-09 13:03:07,335 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 13:03:14,230 Stdout: b''
+2020-05-09 13:03:14,230 Stderr: b''
+2020-05-09 13:03:18,245 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Canales, Eduardo~0104927231
+        
+2020-05-09 13:03:41,186 Stdout: b''
+2020-05-09 13:03:41,186 Stderr: b''
+2020-05-09 13:03:41,186 Move to \Candace Walton~t912929
+2020-05-09 13:03:41,186 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 13:03:43,780 Stdout: b''
+2020-05-09 13:03:43,780 Stderr: b''
+2020-05-09 13:03:43,780 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 13:03:47,381 Stdout: b''
+2020-05-09 13:03:47,381 Stderr: b''
+2020-05-09 13:03:47,381 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 13:03:48,658 Stdout: b''
+2020-05-09 13:03:48,658 Stderr: b''
+2020-05-09 13:03:48,658 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 13:03:48,814 Stdout: b''
+2020-05-09 13:03:48,814 Stderr: b''
+2020-05-09 13:03:48,814 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 13:03:54,282 Stdout: b''
+2020-05-09 13:03:54,282 Stderr: b''
+2020-05-09 13:03:56,283 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Candace Walton~t912929"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 13:03:57,845 Stdout: b''
+2020-05-09 13:03:57,845 Stderr: b''
+2020-05-09 13:03:57,845 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, t912929
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 13:04:17,099 Stdout: b''
+2020-05-09 13:04:17,099 Stderr: b''
+2020-05-09 13:04:17,099 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 13:04:23,819 Stdout: b''
+2020-05-09 13:04:23,819 Stderr: b''
+2020-05-09 13:04:27,850 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Candace Walton~t912929
+        
+2020-05-09 13:04:33,478 Stdout: b''
+2020-05-09 13:04:33,478 Stderr: b''
+2020-05-09 13:04:33,492 Move to \Carter, Shervonda~504939577
+2020-05-09 13:04:33,492 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 13:04:36,102 Stdout: b''
+2020-05-09 13:04:36,102 Stderr: b''
+2020-05-09 13:04:36,102 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 13:04:39,822 Stdout: b''
+2020-05-09 13:04:39,822 Stderr: b''
+2020-05-09 13:04:39,822 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 13:04:41,196 Stdout: b''
+2020-05-09 13:04:41,196 Stderr: b''
+2020-05-09 13:04:41,196 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 13:04:41,368 Stdout: b''
+2020-05-09 13:04:41,368 Stderr: b''
+2020-05-09 13:04:41,368 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 13:04:46,806 Stdout: b''
+2020-05-09 13:04:46,806 Stderr: b''
+2020-05-09 13:04:48,821 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Carter, Shervonda~504939577"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 13:04:50,618 Stdout: b''
+2020-05-09 13:04:50,618 Stderr: b''
+2020-05-09 13:04:50,618 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 504939577
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 13:05:10,171 Stdout: b''
+2020-05-09 13:05:10,171 Stderr: b''
+2020-05-09 13:05:10,171 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 13:05:16,969 Stdout: b''
+2020-05-09 13:05:16,969 Stderr: b''
+2020-05-09 13:05:20,985 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Carter, Shervonda~504939577
+        
+2020-05-09 13:05:28,688 Stdout: b''
+2020-05-09 13:05:28,688 Stderr: b''
+2020-05-09 13:05:28,703 Move to \Cordovez, Pablo~2102405305
+2020-05-09 13:05:28,703 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 13:05:31,282 Stdout: b''
+2020-05-09 13:05:31,282 Stderr: b''
+2020-05-09 13:05:31,282 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 13:05:35,034 Stdout: b''
+2020-05-09 13:05:35,035 Stderr: b''
+2020-05-09 13:05:35,035 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 13:05:36,346 Stdout: b''
+2020-05-09 13:05:36,346 Stderr: b''
+2020-05-09 13:05:36,346 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 13:05:36,534 Stdout: b''
+2020-05-09 13:05:36,534 Stderr: b''
+2020-05-09 13:05:36,534 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 13:05:42,018 Stdout: b''
+2020-05-09 13:05:42,018 Stderr: b''
+2020-05-09 13:05:44,033 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Cordovez, Pablo~2102405305"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 13:05:45,564 Stdout: b''
+2020-05-09 13:05:45,564 Stderr: b''
+2020-05-09 13:05:45,564 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102405305
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 13:06:04,979 Stdout: b''
+2020-05-09 13:06:04,979 Stderr: b''
+2020-05-09 13:06:04,979 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 13:06:11,645 Stdout: b''
+2020-05-09 13:06:11,645 Stderr: b''
+2020-05-09 13:06:15,676 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Cordovez, Pablo~2102405305
+        
+2020-05-09 22:07:50,807 Running script text: WinActivate, Document Information Preview
+2020-05-09 22:07:51,464 Stdout: b''
+2020-05-09 22:07:51,464 Stderr: b''
+2020-05-09 22:07:51,464 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 22:07:51,667 Stdout: b''
+2020-05-09 22:07:51,667 Stderr: b''
+2020-05-09 22:07:51,667 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Cordovez, Pablo~2102405305"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:07:53,512 Stdout: b''
+2020-05-09 22:07:53,512 Stderr: b''
+2020-05-09 22:07:53,512 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102405305
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:08:13,059 Stdout: b''
+2020-05-09 22:08:13,059 Stderr: b''
+2020-05-09 22:08:13,059 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:08:19,747 Stdout: b''
+2020-05-09 22:08:19,747 Stderr: b''
+2020-05-09 22:08:23,777 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Cordovez, Pablo~2102405305
+        
+2020-05-09 22:08:57,857 Stdout: b''
+2020-05-09 22:08:57,857 Stderr: b''
+2020-05-09 22:08:57,872 Move to \Culpepper, Kim~2102384379
+2020-05-09 22:08:57,872 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:09:00,466 Stdout: b''
+2020-05-09 22:09:00,466 Stderr: b''
+2020-05-09 22:09:00,466 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:09:04,091 Stdout: b''
+2020-05-09 22:09:04,091 Stderr: b''
+2020-05-09 22:09:04,091 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:09:05,388 Stdout: b''
+2020-05-09 22:09:05,388 Stderr: b''
+2020-05-09 22:09:05,388 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:09:05,653 Stdout: b''
+2020-05-09 22:09:05,653 Stderr: b''
+2020-05-09 22:09:07,669 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Culpepper, Kim~2102384379"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:09:09,606 Stdout: b''
+2020-05-09 22:09:09,606 Stderr: b''
+2020-05-09 22:09:09,606 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102384379
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:09:29,044 Stdout: b''
+2020-05-09 22:09:29,044 Stderr: b''
+2020-05-09 22:09:29,044 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:09:35,716 Stdout: b''
+2020-05-09 22:09:35,716 Stderr: b''
+2020-05-09 22:09:39,732 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Culpepper, Kim~2102384379
+        
+2020-05-09 22:10:04,424 Stdout: b''
+2020-05-09 22:10:04,441 Stderr: b''
+2020-05-09 22:10:04,455 Move to \Curiel, Ernesto~0108743782
+2020-05-09 22:10:04,455 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:10:07,174 Stdout: b''
+2020-05-09 22:10:07,174 Stderr: b''
+2020-05-09 22:10:07,174 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:10:10,875 Stdout: b''
+2020-05-09 22:10:10,875 Stderr: b''
+2020-05-09 22:10:10,875 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:10:12,158 Stdout: b''
+2020-05-09 22:10:12,158 Stderr: b''
+2020-05-09 22:10:12,158 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:10:12,346 Stdout: b''
+2020-05-09 22:10:12,346 Stderr: b''
+2020-05-09 22:10:12,346 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:10:17,830 Stdout: b''
+2020-05-09 22:10:17,830 Stderr: b''
+2020-05-09 22:10:19,831 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Curiel, Ernesto~0108743782"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:10:21,346 Stdout: b''
+2020-05-09 22:10:21,346 Stderr: b''
+2020-05-09 22:10:21,346 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108743782
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:10:40,721 Stdout: b''
+2020-05-09 22:10:40,721 Stderr: b''
+2020-05-09 22:10:40,721 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:10:47,315 Stdout: b''
+2020-05-09 22:10:47,315 Stderr: b''
+2020-05-09 22:10:51,331 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Curiel, Ernesto~0108743782
+        
+2020-05-09 22:11:17,130 Stdout: b''
+2020-05-09 22:11:17,130 Stderr: b''
+2020-05-09 22:11:17,176 Move to \Davidson, Jo Ana (6.25)~2102388885
+2020-05-09 22:11:17,176 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:11:20,255 Stdout: b''
+2020-05-09 22:11:20,255 Stderr: b''
+2020-05-09 22:11:20,255 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:11:23,835 Stdout: b''
+2020-05-09 22:11:23,835 Stderr: b''
+2020-05-09 22:11:23,835 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:11:25,166 Stdout: b''
+2020-05-09 22:11:25,166 Stderr: b''
+2020-05-09 22:11:25,166 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:11:25,330 Stdout: b''
+2020-05-09 22:11:25,330 Stderr: b''
+2020-05-09 22:11:27,333 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Davidson, Jo Ana (6.25)~2102388885"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:11:28,817 Stdout: b''
+2020-05-09 22:11:28,817 Stderr: b''
+2020-05-09 22:11:28,817 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102388885
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:11:48,133 Stdout: b''
+2020-05-09 22:11:48,133 Stderr: b''
+2020-05-09 22:11:48,133 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:11:54,836 Stdout: b''
+2020-05-09 22:11:54,836 Stderr: b''
+2020-05-09 22:11:58,851 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Davidson, Jo Ana (6.25)~2102388885
+        
+2020-05-09 22:12:10,033 Stdout: b''
+2020-05-09 22:12:10,033 Stderr: b''
+2020-05-09 22:12:10,033 Move to \Davis, Jermaine~0110090677
+2020-05-09 22:12:10,033 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:12:12,534 Stdout: b''
+2020-05-09 22:12:12,534 Stderr: b''
+2020-05-09 22:12:12,535 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:12:16,332 Stdout: b''
+2020-05-09 22:12:16,332 Stderr: b''
+2020-05-09 22:12:16,332 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:12:17,614 Stdout: b''
+2020-05-09 22:12:17,614 Stderr: b''
+2020-05-09 22:12:17,614 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:12:17,786 Stdout: b''
+2020-05-09 22:12:17,786 Stderr: b''
+2020-05-09 22:12:17,786 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:12:23,256 Stdout: b''
+2020-05-09 22:12:23,256 Stderr: b''
+2020-05-09 22:12:25,286 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Davis, Jermaine~0110090677"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:12:26,723 Stdout: b''
+2020-05-09 22:12:26,723 Stderr: b''
+2020-05-09 22:12:26,723 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0110090677
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:12:45,977 Stdout: b''
+2020-05-09 22:12:45,977 Stderr: b''
+2020-05-09 22:12:45,977 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:12:52,713 Stdout: b''
+2020-05-09 22:12:52,713 Stderr: b''
+2020-05-09 22:12:56,729 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Davis, Jermaine~0110090677
+        
+2020-05-09 22:13:01,113 Stdout: b''
+2020-05-09 22:13:01,113 Stderr: b''
+2020-05-09 22:13:01,129 Move to \DeSplinter, Brad (1)~0105397293
+2020-05-09 22:13:01,129 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:13:03,691 Stdout: b''
+2020-05-09 22:13:03,691 Stderr: b''
+2020-05-09 22:13:03,691 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:13:07,426 Stdout: b''
+2020-05-09 22:13:07,426 Stderr: b''
+2020-05-09 22:13:07,426 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:13:08,724 Stdout: b''
+2020-05-09 22:13:08,724 Stderr: b''
+2020-05-09 22:13:08,724 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:13:08,911 Stdout: b''
+2020-05-09 22:13:08,911 Stderr: b''
+2020-05-09 22:13:08,911 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:13:14,271 Stdout: b''
+2020-05-09 22:13:14,271 Stderr: b''
+2020-05-09 22:13:16,286 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\DeSplinter, Brad (1)~0105397293"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:13:17,895 Stdout: b''
+2020-05-09 22:13:17,895 Stderr: b''
+2020-05-09 22:13:17,895 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0105397293
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:13:37,154 Stdout: b''
+2020-05-09 22:13:37,154 Stderr: b''
+2020-05-09 22:13:37,154 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:13:43,875 Stdout: b''
+2020-05-09 22:13:43,875 Stderr: b''
+2020-05-09 22:13:47,906 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, DeSplinter, Brad (1)~0105397293
+        
+2020-05-09 22:14:29,498 Stdout: b''
+2020-05-09 22:14:29,498 Stderr: b''
+2020-05-09 22:14:29,514 Move to \DeSplinter, Brad~2102417327
+2020-05-09 22:14:29,514 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:14:32,128 Stdout: b''
+2020-05-09 22:14:32,128 Stderr: b''
+2020-05-09 22:14:32,128 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:14:35,718 Stdout: b''
+2020-05-09 22:14:35,718 Stderr: b''
+2020-05-09 22:14:35,718 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:14:37,004 Stdout: b''
+2020-05-09 22:14:37,004 Stderr: b''
+2020-05-09 22:14:37,004 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:14:37,191 Stdout: b''
+2020-05-09 22:14:37,191 Stderr: b''
+2020-05-09 22:14:39,191 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\DeSplinter, Brad~2102417327"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:14:40,690 Stdout: b''
+2020-05-09 22:14:40,690 Stderr: b''
+2020-05-09 22:14:40,690 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102417327
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:14:59,934 Stdout: b''
+2020-05-09 22:14:59,934 Stderr: b''
+2020-05-09 22:14:59,934 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:15:06,787 Stdout: b''
+2020-05-09 22:15:06,787 Stderr: b''
+2020-05-09 22:15:10,830 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, DeSplinter, Brad~2102417327
+        
+2020-05-09 22:15:17,847 Stdout: b''
+2020-05-09 22:15:17,847 Stderr: b''
+2020-05-09 22:15:17,847 Move to \Diaz, Ernest J (purchase)~210242295
+2020-05-09 22:15:17,847 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:15:20,409 Stdout: b''
+2020-05-09 22:15:20,409 Stderr: b''
+2020-05-09 22:15:20,409 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:15:24,112 Stdout: b''
+2020-05-09 22:15:24,112 Stderr: b''
+2020-05-09 22:15:24,112 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:15:25,424 Stdout: b''
+2020-05-09 22:15:25,424 Stderr: b''
+2020-05-09 22:15:25,424 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:15:25,769 Stdout: b''
+2020-05-09 22:15:25,769 Stderr: b''
+2020-05-09 22:15:25,769 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:15:31,177 Stdout: b''
+2020-05-09 22:15:31,177 Stderr: b''
+2020-05-09 22:15:33,191 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Diaz, Ernest J (purchase)~210242295"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:15:34,574 Stdout: b''
+2020-05-09 22:15:34,574 Stderr: b''
+2020-05-09 22:15:34,574 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 210242295
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:15:53,895 Stdout: b''
+2020-05-09 22:15:53,895 Stderr: b''
+2020-05-09 22:15:53,895 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:16:00,494 Stdout: b''
+2020-05-09 22:16:00,494 Stderr: b''
+2020-05-09 22:16:04,494 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Diaz, Ernest J (purchase)~210242295
+        
+2020-05-09 22:16:21,621 Stdout: b''
+2020-05-09 22:16:21,621 Stderr: b''
+2020-05-09 22:16:21,637 Move to \Dick, Chad~2019012800
+2020-05-09 22:16:21,637 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:16:24,215 Stdout: b''
+2020-05-09 22:16:24,215 Stderr: b''
+2020-05-09 22:16:24,215 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:16:27,849 Stdout: b''
+2020-05-09 22:16:27,850 Stderr: b''
+2020-05-09 22:16:27,850 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:16:29,216 Stdout: b''
+2020-05-09 22:16:29,216 Stderr: b''
+2020-05-09 22:16:29,216 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:16:29,591 Stdout: b''
+2020-05-09 22:16:29,591 Stderr: b''
+2020-05-09 22:16:29,591 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:16:35,081 Stdout: b''
+2020-05-09 22:16:35,081 Stderr: b''
+2020-05-09 22:16:37,112 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Dick, Chad~2019012800"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:16:38,713 Stdout: b''
+2020-05-09 22:16:38,713 Stderr: b''
+2020-05-09 22:16:38,713 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2019012800
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:16:58,024 Stdout: b''
+2020-05-09 22:16:58,024 Stderr: b''
+2020-05-09 22:16:58,024 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:17:04,758 Stdout: b''
+2020-05-09 22:17:04,758 Stderr: b''
+2020-05-09 22:17:08,774 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Dick, Chad~2019012800
+        
+2020-05-09 22:17:51,267 Stdout: b''
+2020-05-09 22:17:51,267 Stderr: b''
+2020-05-09 22:17:51,283 Move to \Ditcharo, Anthony~0108484627
+2020-05-09 22:17:51,283 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:17:54,079 Stdout: b''
+2020-05-09 22:17:54,079 Stderr: b''
+2020-05-09 22:17:54,079 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:17:57,712 Stdout: b''
+2020-05-09 22:17:57,712 Stderr: b''
+2020-05-09 22:17:57,712 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:17:59,111 Stdout: b''
+2020-05-09 22:17:59,111 Stderr: b''
+2020-05-09 22:17:59,111 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:17:59,283 Stdout: b''
+2020-05-09 22:17:59,283 Stderr: b''
+2020-05-09 22:17:59,283 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:18:04,675 Stdout: b''
+2020-05-09 22:18:04,675 Stderr: b''
+2020-05-09 22:18:06,690 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Ditcharo, Anthony~0108484627"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:18:08,689 Stdout: b''
+2020-05-09 22:18:08,689 Stderr: b''
+2020-05-09 22:18:08,689 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 0108484627
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:18:28,116 Stdout: b''
+2020-05-09 22:18:28,116 Stderr: b''
+2020-05-09 22:18:28,116 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:18:34,867 Stdout: b''
+2020-05-09 22:18:34,867 Stderr: b''
+2020-05-09 22:18:38,869 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Ditcharo, Anthony~0108484627
+        
+2020-05-09 22:18:54,698 Stdout: b''
+2020-05-09 22:18:54,698 Stderr: b''
+2020-05-09 22:18:54,745 Move to \Doyle, Colt (6.28.19)~t0108371469
+2020-05-09 22:18:54,745 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:18:57,385 Stdout: b''
+2020-05-09 22:18:57,385 Stderr: b''
+2020-05-09 22:18:57,385 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:19:00,981 Stdout: b''
+2020-05-09 22:19:00,981 Stderr: b''
+2020-05-09 22:19:00,981 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:19:02,275 Stdout: b''
+2020-05-09 22:19:02,275 Stderr: b''
+2020-05-09 22:19:02,275 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:19:02,437 Stdout: b''
+2020-05-09 22:19:02,438 Stderr: b''
+2020-05-09 22:19:02,438 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:19:07,873 Stdout: b''
+2020-05-09 22:19:07,873 Stderr: b''
+2020-05-09 22:19:09,873 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Doyle, Colt (6.28.19)~t0108371469"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:19:11,528 Stdout: b''
+2020-05-09 22:19:11,528 Stderr: b''
+2020-05-09 22:19:11,528 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, t0108371469
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:19:31,019 Stdout: b''
+2020-05-09 22:19:31,019 Stderr: b''
+2020-05-09 22:19:31,019 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:19:37,647 Stdout: b''
+2020-05-09 22:19:37,647 Stderr: b''
+2020-05-09 22:19:41,652 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Doyle, Colt (6.28.19)~t0108371469
+        
+2020-05-09 22:19:56,292 Stdout: b''
+2020-05-09 22:19:56,292 Stderr: b''
+2020-05-09 22:19:56,308 Move to \Eaton, Karen~2102440544
+2020-05-09 22:19:56,308 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:19:58,905 Stdout: b''
+2020-05-09 22:19:58,905 Stderr: b''
+2020-05-09 22:19:58,905 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:20:02,577 Stdout: b''
+2020-05-09 22:20:02,577 Stderr: b''
+2020-05-09 22:20:02,577 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:20:03,865 Stdout: b''
+2020-05-09 22:20:03,865 Stderr: b''
+2020-05-09 22:20:03,866 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:20:04,071 Stdout: b''
+2020-05-09 22:20:04,071 Stderr: b''
+2020-05-09 22:20:04,071 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:20:09,408 Stdout: b''
+2020-05-09 22:20:09,408 Stderr: b''
+2020-05-09 22:20:11,413 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Eaton, Karen~2102440544"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:20:12,986 Stdout: b''
+2020-05-09 22:20:12,986 Stderr: b''
+2020-05-09 22:20:12,986 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 2102440544
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:20:32,425 Stdout: b''
+2020-05-09 22:20:32,425 Stderr: b''
+2020-05-09 22:20:32,425 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:20:39,347 Stdout: b''
+2020-05-09 22:20:39,347 Stderr: b''
+2020-05-09 22:20:43,349 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Eaton, Karen~2102440544
+        
+2020-05-09 22:22:11,026 Running script text: WinActivate, Document Information Preview
+2020-05-09 22:22:11,244 Stdout: b''
+2020-05-09 22:22:11,244 Stderr: b''
+2020-05-09 22:22:11,244 Running script text: 
+                    clipboard := ""
+                    clipboard := WinExist("Document Management")
+                    ClipWait
+                
+2020-05-09 22:22:11,433 Stdout: b''
+2020-05-09 22:22:11,433 Stderr: b''
+2020-05-09 22:22:11,433 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Engle, Charles~210238895"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:22:14,970 Stdout: b''
+2020-05-09 22:22:14,975 Stderr: b''
+2020-05-09 22:22:14,975 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, 210238895
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
+2020-05-09 22:22:34,894 Stdout: b''
+2020-05-09 22:22:34,894 Stderr: b''
+2020-05-09 22:22:34,894 Running script text: 
+        Sleep, 2500
+        MouseClick, left, 420, 70
+        Sleep, 2500
+        MouseClick, left, 525, 110
+        Sleep, 1000
+        
+2020-05-09 22:22:41,552 Stdout: b''
+2020-05-09 22:22:41,552 Stderr: b''
+2020-05-09 22:22:45,571 Running script text: 
+        MsgBox, Verify File
+        
+        WinClose, Engle, Charles~210238895
+        
+2020-05-09 22:22:52,717 Stdout: b''
+2020-05-09 22:22:52,717 Stderr: b''
+2020-05-09 22:22:52,733 Move to \Erazo, Mario~t0102130689
+2020-05-09 22:22:52,733 Running script text: 
+                    WinActivate, Document Management
+                    Sleep, 1000
+
+                    MouseClick, left, 2137, 27
+                    Sleep, 1000
+            
+2020-05-09 22:22:55,342 Stdout: b''
+2020-05-09 22:22:55,342 Stderr: b''
+2020-05-09 22:22:55,342 Running script text: 
+            Sleep, 1000
+        
+            MouseClick, left, 75, 75
+            Sleep, 1000
+        
+            MouseClick, left, 315, 225
+            Sleep, 1000
+        
+2020-05-09 22:22:59,020 Stdout: b''
+2020-05-09 22:22:59,021 Stderr: b''
+2020-05-09 22:22:59,021 Running script text: 
+            WinActivate, Point
+            Sleep, 1000
+            
+2020-05-09 22:23:00,376 Stdout: b''
+2020-05-09 22:23:00,376 Stderr: b''
+2020-05-09 22:23:00,376 Running script text: 
+            WinGet windows, List
+            Loop %windows%
+            {
+                id := windows%A_Index%
+                WinGetTitle wt, ahk_id %id%
+                r .= wt . "`n"
+            }
+            clipboard := ""
+            clipboard := r
+            ClipWait
+        
+2020-05-09 22:23:00,595 Stdout: b''
+2020-05-09 22:23:00,595 Stderr: b''
+2020-05-09 22:23:00,595 Running script text: 
+                MouseClick, left, 420, 330
+                Sleep, 5000
+            
+2020-05-09 22:23:06,096 Stdout: b''
+2020-05-09 22:23:06,096 Stderr: b''
+2020-05-09 22:23:08,098 Running script text: 
+            MyVar := "C:\Users\trevormoore\Dropbox (Home USA Mortgage)\Home USA Mortgage Team Folder\Special projects\Cleaned\Erazo, Mario~t0102130689"
+            Run, explore %MyVar%
+            Sleep, 1000
+            WinActivate, Point
+            
+2020-05-09 22:23:09,879 Stdout: b''
+2020-05-09 22:23:09,895 Stderr: b''
+2020-05-09 22:23:09,895 Running script text: 
+        Sleep, 1000
+        WinActivate, Point
+        Sleep, 2000
+
+        MouseClick, left, 123, 657
+        Sleep, 1000
+    
+        MouseClick, left, 432, 113
+        Sleep, 1000
+    
+        MouseClick, left, 235, 735, 2
+        Sleep, 1000
+    
+        Send, t0102130689
+        Sleep, 1000
+    
+        MouseClick, left, 205, 870
+        Sleep, 5000
+    
+        MouseClick, left, 350, 285
+        Sleep, 200
+        MouseClick, left, 350, 285
+        Sleep, 5000
+        
